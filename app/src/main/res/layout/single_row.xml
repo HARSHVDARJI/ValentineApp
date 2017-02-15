@@ -8,11 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:id="@+id/single_layout">
+        android:id="@+id/single_layout"
+        android:background="@drawable/list_item_corner">
         <TextView
+            android:paddingBottom="10dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:id="@+id/single_text"/>
     </LinearLayout>
 

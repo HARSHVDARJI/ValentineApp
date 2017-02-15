@@ -3,14 +3,13 @@ package com.project.harsh.valentineapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.ShareActionProvider;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 public class Quotes extends AppCompatActivity {
 
-    private ShareActionProvider mShareActionProvider;
+//    private ShareActionProvider mShareActionProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +21,7 @@ public class Quotes extends AppCompatActivity {
         final String quotes = intent.getStringExtra("quotePos");
 
         txt.setText(quotes);
+        txt.setTextIsSelectable(true);
 
 //        Button sharebtn = (Button) findViewById(R.id.exp_share);
 //        sharebtn.setOnClickListener(new View.OnClickListener() {

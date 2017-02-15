@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="VAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/Color_Primary</item>
+        <item name="colorPrimaryDark">@color/Color_PrimaryDark</item>
+    </style>
+
 </resources>
